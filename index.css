@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#clock {
+    font-size: 2em;
+    /* Initial font size */
+    color: #333;
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 10px;
+    /* Adjust the spacing between the clock and buttons */
+}
+
+
+button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
